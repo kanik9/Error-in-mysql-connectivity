@@ -1,0 +1,13 @@
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+
+After this connectivity error i want to try remove mysql from my computer : it shows that the file is not present
+    1. sudo apt-get remove --purge mysql
+    output: E: Unable to locate package mysql
+    
+    2.sudo apt-get autoremove -y
+    output: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded
+    
+Now i want to reinstall the mysql 
+  1.sudo apt install mysql-server.
+  output :mysql-server is already the newest version (5.7.26-0ubuntu0.18.04.1).
+          0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
