@@ -1,0 +1,31 @@
+When you use ubuntu and the face this problem ,then the only solution is that 
+
+First you have to check that your MariaDB is installed or not 
+
+if it is not install the you have to jump line no 28 ./
+if it is installed the remove it first and the re-install it 
+
+###  1. Ues this to remove mysql completely from your computer
+        1. sudo apt-get remove --purge mysql*
+        2.sudo apt-get purge mysql*
+        3.sudo apt-get autoremove
+        4.sudo apt-get autoclean
+        5.sudo apt-get remove dbconfig-mysql
+        6.sudo apt-get dist-upgrade
+
+
+### 2. Now check , Mysql is present anywhere in your computer
+          use this 
+              1.where mysql    press enter
+
+### 3. After this list of all the place where mysql is present then you have to remove it manualy
+           Go to the folder where mysql is present and remove it by using this
+              1.rm -rf file name
+
+###  4.After this you have to install MariaDB
+              1.https://computingforgeeks.com/install-mariadb-10-on-ubuntu-18-04-and-centos-7
+
+
+You have to follow first 
+step 4 
+Ater the step 4 you will face same error then proced step by step
