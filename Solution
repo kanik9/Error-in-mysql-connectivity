@@ -16,7 +16,7 @@ if it is installed the remove it first and the re-install it
 
 ### 2. Now check , Mysql is present anywhere in your computer
           use this 
-              1.where mysql    press enter
+              1.whereis mysql    press enter
 
 ### 3. After this list of all the place where mysql is present then you have to remove it manualy
            Go to the folder where mysql is present and remove it by using this
